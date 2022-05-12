@@ -10,8 +10,8 @@ export default function GiftCards() {
   return (
 
 	<Grid container spacing={2}>
-        <Grid item xs={6}>
-			<Card sx={{ maxWidth: 345 }}>
+        <Grid item xs={4}>
+			<Card sx={{ maxWidth: 500 }}>
 				<CardActionArea>
 					<CardMedia
 						component="img"
@@ -34,13 +34,13 @@ export default function GiftCards() {
 				</CardActions>
 			</Card>
         </Grid>
-        <Grid item xs={6}>
-			<Card sx={{ maxWidth: 345 }}>
+        <Grid item xs={4}>
+			<Card sx={{ maxWidth: 500 }}>
 				<CardActionArea>
 					<CardMedia
 						component="img"
 						image="img/gifts/sistina.jpg"
-						alt="medusa"
+						alt="Capela Sistina"
 					/>
 					<CardContent>
 						<Typography gutterBottom variant="h6" component="div">
@@ -58,6 +58,30 @@ export default function GiftCards() {
 				</CardActions>
 			</Card>
 		</Grid>	
+        <Grid item xs={4}>
+			<Card sx={{ maxWidth: 500 }}>
+				<CardActionArea>
+					<CardMedia
+						component="img"
+						image="img/gifts/ulisses.jpg"
+						alt="Retorno de Ulisses"
+					/>
+					<CardContent>
+						<Typography gutterBottom variant="h6" component="div">
+							Retorno a Ítaca
+						</Typography>
+						<Typography color="text.secondary">
+							Embarque na Odisséia de Ulisses em seu retorno para Ítaca.
+						</Typography>
+					</CardContent>
+				</CardActionArea>
+				<CardActions>
+					<Button size="small" color="primary">
+						Quero contribuir (R$ 300,00)
+					</Button>
+				</CardActions>
+			</Card>
+		</Grid>			
 	</Grid>
 
   );
