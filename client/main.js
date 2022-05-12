@@ -8,20 +8,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Sticky from 'react-stickynode';
 
-import PhotoGallery from './components/Photos.component';
+import Photos from './components/Photos.component';
 
 import Menu from './components/Menu.component';
 import TitleBar from './components/TitleBar.component';
 import TopicContainer from './components/TopicContainer.component';
-
-const photos = [
-	{
-	  src: 'img/fotos/carnaval.jpg'
-	},
-	{
-	  src: 'img/fotos/protesto.jpg'
-	}
-  ];
 
 const websiteContent = (
 	<div>
@@ -82,7 +73,7 @@ const websiteContent = (
 		</TopicContainer>
 
 		<TopicContainer id="fotos" title="Fotos">
-
+ 			<Photos />
 			<hr />
 
 		</TopicContainer>

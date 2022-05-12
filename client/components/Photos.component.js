@@ -2,21 +2,23 @@
 
 import React from 'react';
 
-import Carousel from 'react-gallery-carousel';
+import ImageGallery from 'react-image-gallery';
 
 const images = [
   {
-    src: 'img/fotos/carnaval.jpg'
+    original: 'img/fotos/carnaval_s.jpg',
+	thumbnail: 'img/fotos/carnaval_tn.jpg'
   },
   {
-    src: 'img/fotos/protesto.jpg'
+    original: 'img/fotos/protesto_s.jpg',
+	thumbnail: 'img/fotos/protesto_tn.jpg'
   }
 ];
 
-class PhotoGallery extends React.Component {
+class Photos extends React.Component {
   render() {
-    return <Carousel images={images} style={{ height: 600, width: 800 }} />;
+    return <ImageGallery items={images}/>;
   }
 }
 
-export default PhotoGallery
+export default Photos
