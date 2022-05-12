@@ -1,0 +1,5 @@
+.vscode/
+bin/
+node_modules/
+static/js/bundle.js
+.env.local
