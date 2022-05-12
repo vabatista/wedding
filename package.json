@@ -20,6 +20,9 @@
   },
   "homepage": "https://github.com/kaloianm/wedding#readme",
   "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@mui/material": "^5.7.0",
     "async": "^2.5.0",
     "body-parser": "^1.15.2",
     "cookie-parser": "^1.4.3",

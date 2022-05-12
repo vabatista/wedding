@@ -13,6 +13,7 @@ import Photos from './components/Photos.component';
 import Menu from './components/Menu.component';
 import TitleBar from './components/TitleBar.component';
 import TopicContainer from './components/TopicContainer.component';
+import GiftCards from './components/Gift.component';
 
 const websiteContent = (
 	<div>
@@ -25,8 +26,8 @@ const websiteContent = (
 		<Sticky enabled={true}>
 			<Menu id="menu"
 				items={[{ label: 'Gabi & Vitor', href: 'gabievitor' },
-				{ label: 'Fotos', href: 'fotos' },
-				{ label: 'Presentes', href: 'presentes' }]}>
+						{ label: 'Presentes', href: 'presentes' },
+						{ label: 'Fotos', href: 'fotos' }]}>
 			</Menu>
 		</Sticky>
 
@@ -64,7 +65,8 @@ const websiteContent = (
 			<p>
 				A ideia de comemorar o casamento num samba veio do nosso jeitinho descontraído e folião de ver a vida! E a Lapa foi escolhida porque representa muito a diversidade de sons, pessoas, estilos, e isso muito nos interessa.
 				A Rua do Lavradio, onde fica o Rio Scenarium, é linda, e aos sábados, durante o dia, abriga uma ótima feirinha de artesanato, lugar que adoramos ir. De noite, apesar de ficar na região da Lapa, o local é bem tranquilo.
-				O Rio Scenarium é uma atração à parte! Vale fazer um pequeno tour para apreciar os diversos espaços, as antiguidades e os detalhes do casarão. Mais informações em https://www.rioscenarium.com.br/.
+				O Rio Scenarium é uma atração à parte! Vale fazer um pequeno tour para apreciar os diversos espaços, as antiguidades e os detalhes do casarão. Mais informações 
+				em <a href="https://www.rioscenarium.com.br/" target="_blank">https://www.rioscenarium.com.br/</a>.
 			</p>
 			<h2>Trajes</h2>
 			<p>
@@ -74,15 +76,15 @@ const websiteContent = (
 			</p>
 		</TopicContainer>
 
+		<TopicContainer id="presentes" title="Presentes">
+			<p>Colaborações para nossa lua de mel são muito bem-vindas!</p>
+ 			<GiftCards />
+		</TopicContainer>
+
 		<TopicContainer id="fotos" title="Fotos">
  			<Photos />
 			<hr />
 
-		</TopicContainer>
-
-		<TopicContainer id="presentes" title="Presentes">
-			<p>Colaborações para nossa lua de mel são muito bem-vindas!</p>
- 			<p>Segue um apanhado do nosso roteiro para você contribuir, se puder ou quiser. Obrigade!!!</p>
 		</TopicContainer>
 
 	</div>
