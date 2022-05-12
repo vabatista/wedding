@@ -44,8 +44,8 @@ const websiteContent = (
 					<div className="one-half column">
 						<p>
 							<a href="img/fotos/vitor.jpg"><img className="thumbnail" src="img/fotos/vitor.jpg" alt="Vitor" /></a>
-							Vitor, pai do Gabriel e do Artur, mineiro de Timóteo, atleticano, o cara que manja de inteligência artificial e curte jogos de tabuleiro,
-							sambista em franca ascensão, progressista em defesa da igualdade social.</p>
+							Vitor, pai do Gabriel e do Artur, mineiro de TimótEo, carioca de afinidade, baiano de coração, atleticano, o cara que curte jogos de 
+							tabuleiro e corridas, sambista em franca ascensão, progressista em defesa da igualdade social.</p>
 					</div>
 				</div>
 			</div>
