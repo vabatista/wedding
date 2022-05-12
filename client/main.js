@@ -37,7 +37,7 @@ const websiteContent = (
 						<p>
 							<a href="img/fotos/gabi.jpg"><img className="thumbnail" src="img/fotos/gabi.jpg" alt="Gabi" /></a>
 							Gabi, mãe do João Pedro e da Manuela, baiana criada no Rio e residente há mais de 20 anos na gélida Teresópolis, amante do carnaval
-							e da filosofia, da galera dos direitos humanos, devota de Marisa Monte.
+							e da filosofia, da galera dos direitos humanos, devota de Marisa Monte,
 						</p>
 					</div>
 
@@ -45,7 +45,7 @@ const websiteContent = (
 						<p>
 							<a href="img/fotos/vitor.jpg"><img className="thumbnail" src="img/fotos/vitor.jpg" alt="Vitor" /></a>
 							Vitor, pai do Gabriel e do Artur, mineiro de TimótEo, carioca de afinidade, baiano de coração, atleticano, o cara que curte jogos de 
-							tabuleiro e corridas, sambista em franca ascensão, progressista em defesa da igualdade social.</p>
+							tabuleiro e corridas, sambista em franca ascensão, progressista em defesa da igualdade social,</p>
 					</div>
 				</div>
 			</div>
@@ -56,7 +56,9 @@ const websiteContent = (
         <img className="large-image" src="img/proposal.jpg" alt="Kal Proposing To Jocelyn" />
       </p>
  */}
-			<h3>escolheram juntos misturar sotaques, livros, discos, contas de streaming e filhos.</h3>
+			<h2 className="center">Escolheram juntos misturar sotaques, livros, discos, contas de streaming e filhos.</h2>
+
+			<hr />
 
 			<h2>Sobre o lugar</h2>
 			<p>

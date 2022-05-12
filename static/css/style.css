@@ -42,6 +42,8 @@ h2 {
     padding-bottom: 15px;
 }
 
+h2.center { text-align: center;}
+
 h3 {
     font-size: 1.5em;
     padding-bottom: 8px;
@@ -492,7 +494,7 @@ img.location-image {
 /* Phablet */
 @media (max-width: 600px) {
     body {
-        background-image: url('../img/bgimage-mobile.jpg');
+        background-image: url('../img/fotos/fundo.jpg');
         background-size: 140%;
     }
 
