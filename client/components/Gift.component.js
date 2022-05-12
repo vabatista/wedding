@@ -24,33 +24,31 @@ export default function GiftCards() {
 			{
 				gifts.map(gift => (
 					<Grid item xs={4}>			
-					<Card sx={{ maxWidth: 500 }}>
-						<CardActionArea>
-							<CardMedia
-								component="img"
-								image={gift.src}
-								alt={gift.id}
-							/>
-							<CardContent>
-								<Typography gutterBottom variant="h6" component="div">
-									{gift.title}
-								</Typography>
-								<Typography color="text.secondary">
-									{gift.desc}
-								</Typography>
-							</CardContent>
-						</CardActionArea>
-						<CardActions>
-							<Button size="small" color="primary">
-								Quero contribuir ({gift.price})
-							</Button>
-						</CardActions>
-					</Card>
-				</Grid>
-		
+						<Card sx={{ maxWidth: 500 }}>
+							<CardActionArea>
+								<CardMedia
+									component="img"
+									image={gift.src}
+									alt={gift.id}
+								/>
+								<CardContent>
+									<Typography gutterBottom variant="h6" component="div">
+										{gift.title}
+									</Typography>
+									<Typography color="text.secondary">
+										{gift.desc}
+									</Typography>
+								</CardContent>
+							</CardActionArea>
+							<CardActions>
+								<Button size="small" color="primary">
+									Quero contribuir ({gift.price})
+								</Button>
+							</CardActions>
+						</Card>
+					</Grid>
 				))
 			}
-
 	</Grid>
 
   );
