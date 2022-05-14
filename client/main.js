@@ -77,7 +77,7 @@ const websiteContent = (
 		</TopicContainer>
 
 		<TopicContainer id="presentes" title="Presentes">
-			<p>Colaborações para nossa lua de mel são muito bem-vindas!</p>
+			<p>Colaborações para nossa lua de mel na Grécia e Itália são muito bem-vindas!</p>
  			<GiftCards />
 		</TopicContainer>
 
