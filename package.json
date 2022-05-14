@@ -1,7 +1,7 @@
 {
-  "name": "jociandkalwedding",
+  "name": "gabievitorwedding",
   "version": "1.0.0",
-  "description": "Jocelyn & Kal Wedding Website",
+  "description": "Gabi & Vitor Wedding Website",
   "private": true,
   "bin": "./bin/app.bundle.js",
   "scripts": {
