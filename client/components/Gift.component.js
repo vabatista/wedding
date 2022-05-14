@@ -69,7 +69,7 @@ export default function GiftCards() {
 		setSelectedGift(gift);
 		console.log("Gift clicked: ", gift);
 		setQrcode("https://gerarqrcodepix.com.br/api/v1?nome=Vitor%20Alcantara%20Batista&cidade=Rio%20de%20Janeiro&valor=" +
-			gift.price + "&saida=qr&chave=03072471630&txid=Presente%20Casamento&tamanho=200");
+			gift.price + "&saida=qr&chave=vabatista@gmail.com&tamanho=200");
 		setIsOpen(true);
 	};
 
