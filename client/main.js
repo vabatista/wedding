@@ -21,7 +21,7 @@ const websiteContent = (
 		<TitleBar id="titlebar">
 		</TitleBar>
 
-		<div style={{ height: '200px' }}></div>
+		<div style={{ height: '50px' }}></div>
 
 		<Sticky enabled={true}>
 			<Menu id="menu"
