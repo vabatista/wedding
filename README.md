@@ -1,28 +1,33 @@
 # Wedding Website
 
+This repository was forked from [https://github.com/kaloianm/wedding](https://github.com/kaloianm/wedding). Thanks!
+
 A React.js-based wedding website with registration form and server backed by MongoDB. Uses Webpack to
-bundle both the server and client-side dependencies.
+bundle both the server and client-side dependencies. For now, I'm just using client side. 
+
+I used an API from this repository [https://github.com/ceciliadeveza/gerarqrcodepix](https://github.com/ceciliadeveza/gerarqrcodepix) to generate pix QR code to receive gifts for wedding.
 
 ## INSTALLATION
 
+Install node and npm, clone repository and:
+
 ```
-npm install && npm start
+npm install 
 ```
+
+## RUNNING LOCALLY
+
+```
+npm run install && npm run dev:local
+
+```
+You need to create a file `.env.local` with connection string to your MongoDB.
 
 ## ENVIRONMENT VARIABLES
 
 * PORT - Port on which the web server should be listening. If not specified, defaults to 8000.
 * MONGODB_URI - Uri to use to connect to the MongoDB database. Uses the format ```mongodb://host:port/database```. If not
                 specified, defaults to ```mongodb://localhost:27017/wedding```.
-* GOOGLE_ANALYTICS_ACCOUNT_ID - The account id to use for submitting Google Analytics data. If not specified, no analytics data
-                will be collected.
-* LOG_LEVEL - The logging level that the web app's components should be using. If not specified, defaults to ```debug```.
-
-## COLOPHON
-
-Implemented on Mac using [Microsoft Visual Studio Code](https://code.visualstudio.com/).
-
-Site template idea borrowed from http://sarahlovesbradley.com/.
 
 ## LICENSE
 
