@@ -23,35 +23,35 @@ const style = {
 const gifts = [
 	{
 		id: "medusa", src: "img/gifts/medusa.jpg", title: "Cortar a cabeça da medusa",
-		desc: "Vamos lutar junto com Perseu para combater a medusa.", price: "100.00"
-	},
-	{
-		id: "sistina", src: "img/gifts/sistina.jpg", title: "Pintar a Capela Sistina",
-		desc: "Que tal se juntar a Michelangelo e pintar a capela sistina?", price: "150.00"
+		desc: "Contribua com nossa luta junto a Perseu para combater a medusa.", price: "100.00"
 	},
 	{
 		id: "ulisses", src: "img/gifts/ulisses.jpg", title: "Retornar a Ítaca",
-		desc: "Calçe suas sandalhas e embarque na Odisséia de Ulisses em seu retorno para Ítaca.", price: "200.00"
+		desc: "Com sua ajuda, vamos calçar nossas sandalhas e embarcar na Odisséia de Ulisses em seu retorno para Ítaca.", price: "150.00"
 	},
 	{
 		id: "bolonhesa", src: "img/gifts/bolonhesa.jpg", title: "Comer qualquer coisa a bolonhesa em Bolonha",
-		desc: "Contribua com a experiência de um jantar de qualquer coisa à bolonhesa em Bolonha.", price: "250.00"
+		desc: "Contribua com a experiência de um jantar qualquer à bolonhesa em Bolonha.", price: "200.00"
 	},
 	{
 		id: "socrates", src: "img/gifts/socrates.jpg", title: "Dialética com Sócrates",
-		desc: "Participe de uma dialética com Sócrates sobre as principais questões da Humanidade.", price: "300.00"
-	},
-	{
-		id: "pitagoras", src: "img/gifts/pitagoras.jpg", title: "Andar na rua com Pitágoras",
-		desc: "Abandone as calçadas e ande na rua com Pitágoras. Aproveite para idolatrar o feijão.", price: "350.00"
+		desc: "Apoie nossa participação em uma dialética com Sócrates sobre as principais questões da Humanidade.", price: "250.00"
 	},
 	{
 		id: "gondola", src: "img/gifts/gondola.jpg", title: "Passeio de gôndola",
-		desc: "Passeie de gôndola pela cidade sem ruas: Veneza!", price: "500.00"
+		desc: "Cantaremos uma serenata pensando em você no passeio de gôndola pelos canais de Veneza!", price: "300.00"
 	},
 	{
 		id: "coliseu", src: "img/gifts/coliseu.jpg", title: "Batalha no Coliseu Romano",
-		desc: "Lute com as principais feras e guerreiros no Coliseu Romano.", price: "1000.00"
+		desc: "Financie nossas armas para uma batalha épica com feras e gladiadores no Coliseu Romano!.", price: "350.00"
+	},
+	{
+		id: "pitagoras", src: "img/gifts/pitagoras.jpg", title: "Andar na rua com Pitágoras",
+		desc: "Gostaria de nos ver abandonando as calçadas e andando na rua com Pitágoras? Aproveitaremos para idolatrar o feijão.", price: "500.00"
+	},
+	{
+		id: "sistina", src: "img/gifts/sistina.jpg", title: "Pintar a Capela Sistina",
+		desc: "Nos ajude a encontrar os sinais deixados pelos Illuminati nas pinturas de Michelangelo?", price: "1000.00"
 	}
 
 ];
