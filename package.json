@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kaloianm/wedding.git"
+    "url": "git+https://github.com/vabatista/wedding.git"
   },
   "author": "Kaloian Manassiev",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kaloianm/wedding/issues"
+    "url": "https://github.com/vabatista/wedding/"
   },
-  "homepage": "https://github.com/kaloianm/wedding#readme",
+  "homepage": "https://github.com/vabatista/wedding#readme",
   "dependencies": {
     "@emotion/styled": "^11.8.1",
     "@mui/material": "^5.7.0",
