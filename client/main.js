@@ -14,6 +14,10 @@ import Menu from './components/Menu.component';
 import TitleBar from './components/TitleBar.component';
 import TopicContainer from './components/TopicContainer.component';
 import GiftCards from './components/Gift.component';
+import ReactGA from 'react-ga';
+
+ReactGA.initialize('G-KLT37CSGYG');
+ReactGA.pageview('principal');
 
 const websiteContent = (
 	<div>
