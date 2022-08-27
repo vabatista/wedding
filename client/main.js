@@ -78,7 +78,7 @@ const websiteContent = (
 				Pode ser vestido curto ou longo, moletom, camiseta de malha ou social, bermuda ou calça, pode exagerar no glitter ou ir de cara lavada, salto fino ou tênis, roupa chique, roupa básica, vai como quiser!!!
 				Não haverá cerimônia ou trajes de casamento, é uma comemoração, não um evento formal.
 			</p>
-			<h2>Programação de shows do dia</h2>
+			{/* <h2>Programação de shows do dia</h2>
 			<p>
 				20:30 - Roda do Sambastião: Você vai poder, se já não conhece, uma roda de samba tradicional. 
 			</p>
@@ -87,7 +87,7 @@ const websiteContent = (
 			</p>
 			<p>
 				01:00 - Bateria da Mocidade: A bateria nota 1000! A bateria mais quente! Escola de Elza Deusa Soares! Herdeiros de Mestre André! Aguentem até o final e assistam!
-			</p>
+			</p>*/}
 		</TopicContainer>
 
 		<TopicContainer id="presentes" title="Presentes">
