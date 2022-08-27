@@ -72,13 +72,7 @@ const websiteContent = (
 				O Rio Scenarium é uma atração à parte! Vale fazer um pequeno tour para apreciar os diversos espaços, as antiguidades e os detalhes do casarão. Mais informações 
 				em <a href="https://www.rioscenarium.com.br/" target="_blank">https://www.rioscenarium.com.br/</a>.
 			</p>
-			<h2>Trajes</h2>
-			<p>
-				Aqui vão algumas dicas de vestimentas: a pedida é roupa confortável pra dançar a noite toda!
-				Pode ser vestido curto ou longo, moletom, camiseta de malha ou social, bermuda ou calça, pode exagerar no glitter ou ir de cara lavada, salto fino ou tênis, roupa chique, roupa básica, vai como quiser!!!
-				Não haverá cerimônia ou trajes de casamento, é uma comemoração, não um evento formal.
-			</p>
-			{/* <h2>Programação de shows do dia</h2>
+			<h2>Programação de shows</h2>
 			<p>
 				20:30 - Roda do Sambastião: Você vai poder, se já não conhece, uma roda de samba tradicional. 
 			</p>
@@ -86,8 +80,15 @@ const websiteContent = (
 				23:00 - Dandara Alves: Cantora de samba espetacular. Sério, procurem na Internet os vídeos. 
 			</p>
 			<p>
-				01:00 - Bateria da Mocidade: A bateria nota 1000! A bateria mais quente! Escola de Elza Deusa Soares! Herdeiros de Mestre André! Aguentem até o final e assistam!
-			</p>*/}
+				01:00 - Bateria da Mocidade: A bateria nota 1000! Não existe mais quente! Escola de Elza Deusa Soares! Herdeiros de Mestre André! Aguentem até o final e tenham essa experiência!
+			</p>
+			<h2>Trajes</h2>
+			<p>
+				Aqui vão algumas dicas de vestimentas: a pedida é roupa confortável pra dançar a noite toda!
+				Pode ser vestido curto ou longo, moletom, camiseta de malha ou social, bermuda ou calça, pode exagerar no glitter ou ir de cara lavada, salto fino ou tênis, roupa chique, roupa básica, vai como quiser!!!
+				Não haverá cerimônia ou trajes de casamento, é uma comemoração, não um evento formal.
+			</p>
+
 		</TopicContainer>
 
 		<TopicContainer id="presentes" title="Presentes">
